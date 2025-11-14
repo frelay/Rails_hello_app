@@ -8,4 +8,8 @@ class ApplicationController < ActionController::Base
   def hello
     render plain: "Привет, мир!"
   end
+
+  def goodbye
+    render plain: "Goodbye, world!"
+  end
 end
